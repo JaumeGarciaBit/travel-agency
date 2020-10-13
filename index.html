@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <p>Hotel Nights:
+        <input  onclick="Execute()" type="number" name="" id="night" value="Hotel Nights" min="0"></p>
+        <p>City:
+            <input  onclick="Execute()" type="radio" name="city" id="p" value = "Paris">Paris
+            <input onclick="Execute()" type="radio" name="city" id="b" value = "Boston">Boston
+            <input onclick="Execute()" type="radio" name="city" id="l" value = "Londres">Londres
+        </p>
+        <p>Car Days:
+            <input onclick="Execute()" type="number" name="" id="day" value="Car Days" min="0" ></p>
+
+        <button type="button" onclick="Execute()">Calcular</button>
+
+        <p id="answer"></p>
+    </form>
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
